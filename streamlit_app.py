@@ -1,5 +1,5 @@
 #created the main python file
 
-import stremlit
+import streamlit
 
 streamlit.title('my parebts new healthy diner')
