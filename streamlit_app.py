@@ -12,7 +12,7 @@ def get_fruitvice_data(this_fruit_chice):
         # write your own comment -what does the next line do? 
         fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
          # write your own comment - what does this do?
-        retrun fruityvice_normalized
+        return fruityvice_normalized
 
 streamlit.title('My Moms new healthy diner')
 streamlit.header('Breakfast Favorites')
