@@ -44,7 +44,7 @@ try:
 except URLError as e:
    streamlit.error()
 
-#streamlit.stop()
+
 
 def get_fruit_load_list():
         
@@ -63,7 +63,7 @@ def get_fruit_load_list():
         streamlit.dataframe(my_data_rows)
         
 
-
+streamlit.stop()
 
 fruit_choice = streamlit.text_input('What fruit would you like to add  about?','Kiwi')
 streamlit.write('The user entered ', fruit_choice)
